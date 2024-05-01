@@ -12,7 +12,7 @@ The normal version `Main.py` can be controlled completely from your computer. Th
 
 
 ### Prerequisites
-You will need something to run the software on the Pico. [Thonny](https://github.com/thonny/thonny) is a good option.
+You will need something to run the software on the Pico. [Thonny](https://github.com/thonny/thonny) is a good option. The version provided here is tested and works, or it can be downloaded from Thonny's GitHub here: https://github.com/thonny/thonny/releases/download/v3.3.13/thonny-3.3.13.exe
 
 ### How to set up
 1. Plug in the Pi Pico while holding down the BOOTSEL button. It should appear as a USB drive. Drag `adafruit-circuitpython-raspberry_pi_pico-nl-7.3.0.uf2` onto the Pico's storage. It will disconnect, reboot, and reconnect.
