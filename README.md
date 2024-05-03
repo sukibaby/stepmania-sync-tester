@@ -20,3 +20,8 @@ You will need something to run the software on the Pico. [Thonny](https://github
 3. Open **Thonny**. When it asks you if you want to use Normal or Raspberry Pi mode, stay on Normal mode. You may have to hit the "Stop" button (Stop/restart backend) to get your Pi Pico to be recognized.
 4. Load `Main.py` in Thonny. When you are ready to send the input, press the start button (or toggle the switch if you loaded `Main-switched.py`)
 5. Make a folder in your StepMania's `Songs` directory called anything you'd like to call it, and then put the folder "625bpm sync test" in there. It will show up in your song list as "625bpm sync test".
+
+### Note on accuracy
+
+Something with either the Pico or `adafruit_hid` library causes a very slight offset every 10 minutes. Please take this into account if you are going to use this to test for 10 minutes or more. Example:
+![625BPM_SYN_2024-05-02_233341](https://github.com/sukibaby/stepmania-sync-tester/assets/163092272/8efff291-4663-4714-ad41-e29771c66017)
